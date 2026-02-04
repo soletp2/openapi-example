@@ -1,6 +1,6 @@
 window.onload = () => {
   window.ui = SwaggerUIBundle({
-    url: "../openapi.yaml",        // points to your spec in the repo root
+    url: "./openapi.yaml",
     dom_id: "#swagger-ui",
     deepLinking: true,
     presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
